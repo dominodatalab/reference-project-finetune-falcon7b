@@ -57,3 +57,7 @@ RUN pip install lightning@git+https://github.com/Lightning-AI/lightning@master \
                 zstandard \
 ```
 
+Once you have spun up a workspace, clone this repo
+```
+git clone https://github.com/dominodatalab/reference-project-falcon7b.git
+```

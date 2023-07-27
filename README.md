@@ -1,7 +1,7 @@
 
 *Disclaimer - Domino Reference Projects are starter kits built by Domino researchers. They are not officially supported by Domino. Once loaded, they are yours to use or modify as you see fit. We hope they will be a beneficial tool on your journey!
 
-# reference-project-falcon7b
+# reference-project-finetune-falcon7b
 This reference project shows how to fine tune the Falcon-7b and Falcon-7b-instruct models on a conversational dataset using PyTorch Lightning. The code is based on the the `lit-gpt` project by PyTorch Lightning with changes made for it to run on Domino and for the conversational dataset that we have curated.
 
 Here are a list of important files in the project that you might need to edit in order to customize this further for your use case.

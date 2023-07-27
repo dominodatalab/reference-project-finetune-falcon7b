@@ -14,7 +14,7 @@ Here are a list of important files in the project that you might need to edit in
 
 * [lit-gpt/finetune](lit-gpt/finetune) : This directory contains files for different fine tuning mechanisms. Change the parameters in the `setup` function in case you want to change the default location of where data is read from, where results and checkpoints are stored and precision to use. The format of `sample` has also been modified to match the conversation dataset we are using for the finetuning. Please change this if you are changing the dataset for finetuning
 
-*[lit-gpt/generate](lit-gpt/generate): This directory contains files to generate outputs from the fine tuned models. Change the paramteres in `main` in case you want to change the defaults being used. Also modify the `sample` variable to match the dataset that you are used for fine tuning the model 
+* [lit-gpt/generate](lit-gpt/generate): This directory contains files to generate outputs from the fine tuned models. Change the paramteres in `main` in case you want to change the defaults being used. Also modify the `sample` variable to match the dataset that you are used for fine tuning the model 
 
 ## Setup instructions
 

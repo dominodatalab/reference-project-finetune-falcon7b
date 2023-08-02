@@ -24,7 +24,7 @@ This project requires the following [compute environments](https://docs.dominoda
 ### lit-gpt
 **Environment Base** 
 
-nvcr.io/nvidia/pytorch:21.10-py3
+`nvcr.io/nvidia/pytorch:21.10-py3`
 
 **Dockerfile Instructions**
 

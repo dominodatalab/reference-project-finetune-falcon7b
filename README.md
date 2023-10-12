@@ -56,7 +56,7 @@ RUN pip install lightning@git+https://github.com/Lightning-AI/lightning@master \
                 datasets \ 
                 pydantic==2.0.2 \
                 pydantic_core==2.1.2 \
-                zstandard \
+                zstandard 
 ```
 
 Once you have spun up a workspace, clone this repo. We ran this fine tuning successfully on a T4 GPU with 16GB of GPU RAM

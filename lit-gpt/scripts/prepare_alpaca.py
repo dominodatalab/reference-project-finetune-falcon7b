@@ -15,9 +15,9 @@ sys.path.append(str(wd))
 from lit_gpt.tokenizer import Tokenizer
 
 DATA_FILE_URL = "https://raw.githubusercontent.com/tloen/alpaca-lora/main/alpaca_data_cleaned_archive.json"
-DATA_FILE_NAME = "/mnt/lit-gpt/conversation_data/data.json"
+DATA_FILE_NAME = "/mnt/code/lit-gpt/conversation_data/data.json"
 DESTINATION_PATH = Path("data/alpaca")
-CHECKPOINT_DIR = Path("/mnt/checkpoints/tiiuae/falcon-7b-instruct")
+CHECKPOINT_DIR = Path("/mnt/code/checkpoints/tiiuae/falcon-7b-instruct")
 TEST_SPLIT_FRACTION = 0.03865  # to get exactly 2000 test samples
 IGNORE_INDEX = -1
 MASK_INPUTS = False  # as in alpaca-lora

@@ -28,8 +28,8 @@ lora_dropout = 0.05
 def main(
     prompt: str = "What food do lamas eat?",
     input: str = "",
-    lora_path: Path = Path("/mnt/out/lora/alpaca/lit_model_lora_finetuned_instruct.pth"),
-    checkpoint_dir: Path = Path("/mnt/checkpoints/tiiuae/falcon-7b-instruct"),
+    lora_path: Path = Path("/mnt/artifacts/out/lora/alpaca/lit_model_lora_finetuned_instruct.pth"),
+    checkpoint_dir: Path = Path("/mnt/code/checkpoints/tiiuae/falcon-7b-instruct"),
     quantize: Optional[Literal["bnb.nf4", "bnb.nf4-dq", "bnb.fp4", "bnb.fp4-dq", "bnb.int8", "gptq.int4"]] = None,
     max_new_tokens: int = 100,
     top_k: int = 200,

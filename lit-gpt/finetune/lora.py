@@ -52,9 +52,9 @@ hparams = {k: v for k, v in locals().items() if isinstance(v, (int, float, str))
 
 
 def setup(
-    data_dir: Path = Path("/mnt/data/alpaca"),
-    checkpoint_dir: Path = Path("/mnt/checkpoints/tiiuae/falcon-7b-instruct"),
-    out_dir: Path = Path("/mnt/out/lora/alpaca"),
+    data_dir: Path = Path("/mnt/code/data/alpaca"),
+    checkpoint_dir: Path = Path("/mnt/code/checkpoints/tiiuae/falcon-7b-instruct"),
+    out_dir: Path = Path("/mnt/artifacts/out/lora/alpaca"),
     precision: Optional[str] = None,
     tpu: bool = False,
 ):

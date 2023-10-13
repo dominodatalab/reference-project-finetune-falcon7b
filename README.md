@@ -38,10 +38,7 @@ RUN pip install lightning@git+https://github.com/Lightning-AI/lightning@master \
                 jsonargparse[signatures]  \ 
                 bitsandbytes>=0.40.0  \
                 scipy \
-                deepspeed \
                 datasets \ 
-                pydantic==2.0.2 \
-                pydantic_core==2.1.2 \
                 zstandard 
 ```
 

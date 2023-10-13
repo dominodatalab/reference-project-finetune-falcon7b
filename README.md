@@ -31,20 +31,6 @@ Please note that you will need a GPU with 24GB VRAM for this project. This proje
 **Dockerfile Instructions**
 
 ```
-# System-level dependency injection runs as root
-USER root:root
-
-# Validate base image pre-requisites
-# Complete requirements can be found at
-# https://docs.dominodatalab.com/en/latest/user_guide/a00d1b/automatic-adaptation-of-custom-images/#_pre_requisites_for_automatic_custom_image_compatibility_with_domino
-RUN /opt/domino/bin/pre-check.sh
-
-# Configure /opt/domino to prepare for Domino executions
-RUN /opt/domino/bin/init.sh
-
-# Validate the environment
-RUN /opt/domino/bin/validate.sh
-
 RUN pip install --index-url https://download.pytorch.org/whl/nightly/cu118 --pre 'torch>=2.1.0dev'
 
 RUN pip install lightning@git+https://github.com/Lightning-AI/lightning@master \

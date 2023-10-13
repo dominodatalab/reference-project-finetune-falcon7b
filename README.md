@@ -42,7 +42,7 @@ RUN pip install lightning@git+https://github.com/Lightning-AI/lightning@master \
                 zstandard 
 ```
 
-Once you have spun up a workspace, clone this repo. We ran this fine tuning successfully on a A10 GPU with 24GB of GPU RAM
+Once you have spun up a workspace, clone this repo.
 ```
 git clone https://github.com/dominodatalab/reference-project-falcon7b.git
 ```

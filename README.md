@@ -24,7 +24,7 @@ This project requires the following [compute environments](https://docs.dominoda
 
 Please note that you will need a GPU with 24GB VRAM for this project. This project was tested on an Nvidia `A10G` GPU with 24 GB of RAM . Also take care to provision adequate disc space for your workspace as the model binary occupies ~15GB on disc.
 
-**Environment Base** 
+### Environment Requirements
 
 `nvcr.io/nvidia/pytorch:21.10-py3`
 
@@ -46,3 +46,6 @@ Once you have spun up a workspace, clone this repo.
 ```
 git clone https://github.com/dominodatalab/reference-project-falcon7b.git
 ```
+
+### Hardware Requirements
+This fine tuning was tested successfully on a T4 GPU with 16GB of GPU RAM.

@@ -1,7 +1,9 @@
 # Fine Tuning Falcon-7b
 
 ## License
-This template is licensed to Customer subject to the terms of the license agreement between Domino and the Customer on file.
+This template is licensed under Apache 2.0 and contains the following components: 
+* Falcon 7B [Apache 2.0](https://huggingface.co/tiiuae/falcon-7b)
+* lit-gpt [Apache 2.0](https://github.com/Lightning-AI/lit-gpt/blob/main/LICENSE)
 
 ## About this project
 This reference project shows how to fine tune the Falcon-7b and Falcon-7b-instruct models on a conversational dataset using PyTorch Lightning. The code is based on the the `lit-gpt` project by PyTorch Lightning with changes made for it to run on Domino and the conversational dataset that we have curated.

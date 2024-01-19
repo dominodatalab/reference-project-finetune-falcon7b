@@ -21,7 +21,7 @@ class TestFalcon7b(unittest.TestCase):
 
     def test_data_file_exists(self):
         """ Test if the data file exists """
-        data_file_path = '../lit-gpt/conversation_data/data.json'
+        data_file_path = '/mnt/code/lit-gpt/conversation_data/data.json'
         self.assertTrue(os.path.isfile(data_file_path), "Data file does not exist")
 
 if __name__ == '__main__':

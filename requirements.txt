@@ -1,0 +1,7 @@
+git+https://github.com/Lightning-AI/lightning@master
+tokenizers
+jsonargparse[signatures]
+bitsandbytes>=0.40.0
+scipy
+datasets
+zstandard
